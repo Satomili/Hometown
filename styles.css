@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background: linear-gradient(#f2e8cf,#386641)
+}
+
+h1, h2 {
+    font-family: 'Fredoka One', cursive;
+}
+
+/* hero-section */
+
+#hero-sectiton {
+    background-image: url("images/mizunami-img.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    color: #f2e8cf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    background: #386641;
+    border-radius: 5px;
+    padding: 30px 50px;
+    text-shadow: 3px 3px 1px black;
+    font-size: 50px;
+}
+
+#sub-header {
+    background: #6a994e;
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-shadow: 0 0 1px black;
+}
+
+/* content/activity-section */
+
+#content-section {
+    color: #386641;
+    text-align: center;
+    background-color: #f2e8cf;
+    padding: 5px 0;
+}
+
+#activity-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity-img {
+    width: 200px;
+    height: 150px;
+    border: 10px solid #a7c957;
+    border-radius: 10px;
+}
+
+.activity {
+    padding: 30px 50px 10px 50px;
+    border: 8px solid #386641;
+    border-radius: 10px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.activity:hover {
+    background: #386641;
+    color: #f2e8cf;
+    border: 5px double #386641;
+    font-weight: bold;
+}
+
+/* guide-section */
+
+#satomi-img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+#guide-section {
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: space-around;
+    width: 500px;
+    background: #bc4749;
+    color: #f2e8cf;
+    text-shadow: 0 0 1px black;
+    border-bottom: 20px solid #a7c957;
+    border-radius: 10px;
+}
+
+#satomi-intro {
+    width: 200px;
+}
+
+#satomi-message {
+    font-style: italic;
+}
+
+#satomi-intro:hover {
+    font-weight: bold;
+}
+
+/* contact-section */
+
+#contact-section {
+    color: #f2e8cf;
+    background-image: url("images/totoro.gif");
+    background-size: cover;
+    text-shadow: 0 0 1px black;
+    padding: 10px;
+}
+
+#contact-form {
+    width: 450px;
+    display: block;
+    margin: 10px auto;
+}
+
+.input-field {
+    width: 400px;
+}
+
+input {
+    border-radius: 5px;
+    border: 2px solid #f2e8cf;
+    padding: 10px 20px;
+    margin: 3px;
+}
+
+
+textarea {
+    height: 200px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #f2e8cf;
+    padding: 10px 20px;
+}
+
+#contact-title {
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#btn {
+    padding: 15px 20px;
+    width: 200px;
+    font-family: 'Fredoka One', cursive;
+    color: #f2e8cf;
+    background: #6a994e;
+    border: 8px outset #f2e8cf;
+    border-radius: 50px;
+    text-shadow: 0 0 1px black;
+    display: block;
+    margin: 10px auto;
+}
+
+#btn:hover {
+/*     background: #386641; */
+    border: 8px inset #386641;
+}
+
+/* footer-section */
+
+#footer-p {
+    text-align: center;
+    color: #f2e8cf;
+    padding: 20px;
+}
+
+a {
+    color: #f2e8cf;
+    }
+}
